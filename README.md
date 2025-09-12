@@ -79,7 +79,3 @@ TrackDaemon ist ein IT-Hobby-Projekt, das mich im Alltag beim Fitness-Tracking u
 - PostgreSQL
 - JWT-Auth
 - Deployment via Docker + Render/Railway/Hetzner
-
-## Installation / Run
-*(Hier kannst du später rein schreiben: „npm install“, „npm start“ etc.)*
-
