@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'screens/homepage.dart';
-import 'screens/workout.dart';
+import 'screens/workout/workout.dart';
 import 'screens/reminder.dart';
 import 'screens/history.dart';
 import 'screens/settings.dart';
@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
         //
         // This works for code too, not just values: Most code changes can be
         // tested with just a hot reload.
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 47, 11, 108)),
       ),
       home: const MyHomePage(title: 'Trackdaemon'),
     );
@@ -96,7 +96,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: _screens[_selectedIndex],
       bottomNavigationBar: BottomNavigationBar(
-        selectedItemColor: Colors.deepPurple,
+        selectedItemColor: const Color.fromARGB(255, 47, 11, 108),
         unselectedItemColor: Colors.grey,
         showUnselectedLabels: true,
         currentIndex: _selectedIndex,
