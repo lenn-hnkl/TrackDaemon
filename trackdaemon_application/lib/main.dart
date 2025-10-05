@@ -108,7 +108,7 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.fitness_center),
-            label: 'Workouts',
+            label: 'Training',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.history),
